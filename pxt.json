@@ -1,0 +1,31 @@
+{
+    "name": "SuperWaluigiBros5",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "color-coded-tilemap": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v0.11.11",
+        "tag": "v0.11.11",
+        "commits": "https://github.com/Microsoft/pxt-arcade/commits/6ae177a04f199e062bafe7f2855ba2635840a67a",
+        "target": "1.12.58",
+        "pxt": "5.12.4",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
