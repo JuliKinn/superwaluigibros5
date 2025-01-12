@@ -14,8 +14,10 @@ enum ActionKind {
     walk_down
 }
 scene.onHitTile(SpriteKindLegacy.Player, 5, function (sprite) {
-    Ruby.startEffect(effects.fountain, 500)
-    info.changeScoreBy(1)
+    if (Ruby.isHittingTile(CollisionDirection.Top)) {
+        Ruby.startEffect(effects.fountain, 500)
+        info.changeScoreBy(1)
+    }
 })
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (Ruby.isHittingTile(CollisionDirection.Bottom)) {
