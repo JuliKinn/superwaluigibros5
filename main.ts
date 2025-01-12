@@ -69,7 +69,7 @@ function prepPlayer () {
         `, SpriteKindLegacy.Player)
     Ruby.setPosition(14, 80)
     controller.moveSprite(Ruby, 80, 0)
-    Ruby.ay = 300
+    Ruby.ay = 500
 }
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     Ruby.x += 1
